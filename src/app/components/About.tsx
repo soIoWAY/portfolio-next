@@ -6,13 +6,13 @@ const About = () => {
 	return (
 		<div
 			id='about'
-			className='flex flex-col items-center w-full bg-[#0A0A0A] pt-20 pb-10 px-40'
+			className='flex flex-col items-center w-full bg-[#0A0A0A] pt-20 pb-10 px-10 sm:px-20 md:px-40'
 		>
-			<div className='flex justify-between items-center'>
-				<div className='w-1/2 flex flex-col gap-2'>
+			<div className='flex flex-col-reverse md:flex-row justify-between items-center'>
+				<div className='w-full mt-6 md:mt-0 gap-2 md:w-1/2 flex flex-col'>
 					<h1 className='text-rose-700 text-3xl font-bold'>HI!</h1>
 					<h2 className='font-bold text-2xl'>
-						My name is{' '}
+						My name is
 						<span className='text-rose-700 tracking-wide'>
 							Vitaliy Myronyuk
 						</span>
@@ -29,7 +29,7 @@ const About = () => {
 						Contact Me
 					</Link>
 				</div>
-				<div>
+				<div className='flex justify-center items-center'>
 					<Image
 						src='/about.jpg'
 						alt='about'

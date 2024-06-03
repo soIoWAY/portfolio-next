@@ -1,11 +1,11 @@
 const Education = () => {
 	return (
-		<div className='bg-[#0a0a0a] px-40 mx-auto flex flex-col items-center py-12'>
+		<div className='bg-[#0a0a0a] px-10 sm:px-20 md:px-40 mx-auto flex flex-col items-center py-12'>
 			<h1 className='uppercase font-bold text-2xl border-b-4 border-rose-700'>
 				Education
 			</h1>
-			<div className='mt-6 flex flex-wrap justify-center w-3/4 gap-3'>
-				<div className='flex flex-col gap-6 w-5/12 bg-[#0c0c0c] shadow-black shadow-lg rounded-sm p-4'>
+			<div className='mt-6 flex flex-wrap justify-center w-full md:w-3/4 gap-3'>
+				<div className='flex flex-col gap-6 w-full md:w-5/12 bg-[#0c0c0c] shadow-black shadow-lg rounded-sm p-4'>
 					<div className='flex items-center gap-4'>
 						<div className='bg-white h-16 w-16 rounded-full text-3xl flex justify-center items-center'>
 							🔥
@@ -24,7 +24,7 @@ const Education = () => {
 						programming, algorithms, databases, teamwork skills.
 					</p>
 				</div>
-				<div className='flex flex-col gap-6 w-5/12 bg-[#0c0c0c] shadow-black shadow-lg rounded-sm p-4'>
+				<div className='flex flex-col gap-6 w-full md:w-5/12 bg-[#0c0c0c] shadow-black shadow-lg rounded-sm p-4'>
 					<div className='flex items-center gap-4'>
 						<div className='bg-white h-16 w-16 rounded-full text-3xl flex justify-center items-center'>
 							👨‍💻

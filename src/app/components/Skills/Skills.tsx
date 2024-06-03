@@ -49,12 +49,12 @@ const Skills = () => {
 			<h1 className='uppercase font-bold text-2xl border-b-4 border-rose-700'>
 				Skills
 			</h1>
-			<p className='text-base mt-6 w-2/3 text-center'>
+			<p className='text-base mt-6 w-9/12 sm:w-2/3 text-center'>
 				I am from Ukraine and currently living in Lviv. I am doing Bachelor`s in
 				Computer Science and I will graduate in the year 2025. I am Front-End
 				developer and currently working as a freelancer.
 			</p>
-			<div className='mt-6 flex flex-wrap justify-center w-2/3 gap-3'>
+			<div className='mt-6 flex flex-wrap justify-center w-full sm:w-2/3 gap-3'>
 				{skills.map((skill, index) => (
 					<Skill key={index} icon={skill.icon} name={skill.name} />
 				))}

@@ -8,7 +8,7 @@ import Skills from './components/Skills/Skills'
 
 export default function Home() {
 	return (
-		<main className='container min-h-screen'>
+		<main className='min-h-screen'>
 			<Header />
 			<div className='mx-auto'>
 				<About />

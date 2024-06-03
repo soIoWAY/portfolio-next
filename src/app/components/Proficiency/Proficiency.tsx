@@ -18,12 +18,12 @@ const proficiencies: IProficiencies[] = [
 
 const Proficiency = () => {
 	return (
-		<div className='bg-[#0d0d0d] px-40 mx-auto flex flex-col items-center py-12'>
+		<div className='bg-[#0d0d0d] px-10 sm:px-20 md:px-40 mx-auto flex flex-col items-center py-12'>
 			<h1 className='uppercase font-bold text-2xl border-b-4 border-rose-700'>
 				Proficiency
 			</h1>
 			<div className='w-full flex justify-center gap-20 mt-10'>
-				<div className='flex flex-wrap flex-col w-7/12 gap-6 h-64'>
+				<div className='flex flex-wrap flex-col w-full md:w-7/12 gap-6 h-64'>
 					{proficiencies.map((prof, index) => (
 						<ProficiencyBar name={prof.name} width={prof.width} key={index} />
 					))}

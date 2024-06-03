@@ -27,9 +27,9 @@ const footerNav = [
 const Footer = () => {
 	return (
 		<footer className='bg-[#0d0d0d]' id='contacts'>
-			<div className='flex flex-col px-40 mx-auto'>
-				<div className='flex justify-between py-12'>
-					<div className='flex flex-col gap-12 w-1/2'>
+			<div className='flex flex-col px-10 sm:px-20 md:px-40 mx-auto'>
+				<div className='flex flex-col md:flex-row justify-between py-12'>
+					<div className='flex flex-col gap-6 md:gap-12 w-1/2'>
 						<div className='uppercase font-serif flex flex-col gap-1'>
 							<h1 className='text-2xl'>
 								<span className='text-rose-700'>Vitaliy</span> Myronyuk
@@ -51,7 +51,7 @@ const Footer = () => {
 							</div>
 						</div>
 					</div>
-					<div className='flex justify-between w-1/2'>
+					<div className='flex flex-col gap-12 sm:gap-0 sm:flex-row mt-12 md:mt-0 justify-between w-full md:w-1/2'>
 						<div>
 							<ul className='flex flex-col gap-3'>
 								{footerNav.map((fnav, index) => (

@@ -36,7 +36,7 @@ export function ProjectSwiper() {
 							alt='project1'
 						/>
 					</div>
-					<p className='text-center w-[80%] text-sm mt-2'>
+					<p className='text-center w-[90%] sm:w-[80%] text-sm mt-2'>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
 						voluptatem, tenetur, optio voluptates deserunt dolores totam
 						reprehenderit voluptate hic, quis omnis earum incidunt quisquam
