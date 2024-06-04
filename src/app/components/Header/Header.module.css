@@ -1,0 +1,15 @@
+.navbar {
+	transition: transform 0.3s ease-in-out;
+	transform: translateX(100%);
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: #000;
+	z-index: 9999;
+}
+
+.navbarOpen {
+	transform: translateX(0%);
+}
