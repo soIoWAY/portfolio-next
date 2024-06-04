@@ -1,18 +1,4 @@
 'use client'
-// const slides = [
-// 	{
-// 		image: '/project1.jpg',
-// 		text: 'test test tetefewg  gdsaa adsg dasg dsag dsa ',
-// 	},
-// 	{
-// 		image: '/project2.jpg',
-// 		text: 'test test tetefewg  gdsaa adsg dasg dsag dsa ',
-// 	},
-// 	{
-// 		image: '/project3.jpg',
-// 		text: 'test test tetefewg  gdsaa adsg dasg dsag dsa ',
-// 	},
-// ]
 
 import { ProjectSwiper } from './ProjectsSwiper'
 

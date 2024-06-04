@@ -1,28 +1,6 @@
-import Link from 'next/link'
-import {
-	FaGithub,
-	FaInstagram,
-	FaLinkedinIn,
-	FaPhoneAlt,
-	FaTelegramPlane,
-} from 'react-icons/fa'
-import { IoMail } from 'react-icons/io5'
-
-const socials = [
-	{ icon: <FaGithub /> },
-	{ icon: <FaInstagram /> },
-	{ icon: <FaTelegramPlane /> },
-	{ icon: <FaLinkedinIn /> },
-]
-
-const footerNav = [
-	{ text: 'About' },
-	{ text: 'Skills' },
-	{ text: 'Education' },
-	{ text: 'Proficiency' },
-	{ text: 'Projects' },
-	{ text: 'Contacts' },
-]
+import Contacts from './Contacts'
+import FooterNavbar from './FooterNavbar'
+import Socials from './Socials'
 
 const Footer = () => {
 	return (
@@ -39,53 +17,15 @@ const Footer = () => {
 						<div className='flex flex-col gap-1'>
 							<h4 className='font-semibold'>Follow me</h4>
 							<div>
-								<ul className='flex gap-5 text-2xl text-rose-700'>
-									{socials.map((social, index) => (
-										<Link href='/' key={index}>
-											<li className='border p-2 rounded-full border-rose-700 hover:bg-rose-700 hover:text-[#0c0c0c] transition-all'>
-												{social.icon}
-											</li>
-										</Link>
-									))}
-								</ul>
+								<Socials />
 							</div>
 						</div>
 					</div>
 					<div className='flex flex-col gap-12 sm:gap-0 sm:flex-row mt-12 md:mt-0 justify-between w-full md:w-1/2'>
-						<div>
-							<ul className='flex flex-col gap-3'>
-								{footerNav.map((fnav, index) => (
-									<li
-										key={index}
-										className='hover:text-rose-700 transition-all'
-									>
-										<Link href='/'>{fnav.text}</Link>
-									</li>
-								))}
-							</ul>
-						</div>
+						<FooterNavbar />
 						<div className='flex flex-col gap-2'>
 							<h4 className='font-semibold'>Contact me</h4>
-							<div>
-								<ul className='flex flex-col gap-2'>
-									<li>
-										<Link href='/'>
-											<div className='flex items-center gap-3'>
-												<FaPhoneAlt className='fill-rose-700 text-xl' />
-												<p>0688867089</p>
-											</div>
-										</Link>
-									</li>
-									<li>
-										<Link href=''>
-											<div className='flex items-center gap-3'>
-												<IoMail className='fill-rose-700 text-xl' />
-												<p>vitalikmur38@gmail.com</p>
-											</div>
-										</Link>
-									</li>
-								</ul>
-							</div>
+							<Contacts />
 						</div>
 					</div>
 				</div>

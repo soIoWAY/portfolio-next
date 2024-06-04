@@ -1,8 +1,9 @@
 'use client'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
-import { RxHamburgerMenu } from 'react-icons/rx'
 import styles from './Header.module.css'
+import Navbar from './Navbar'
+import ResponsiveNavbar from './ResponsiveNavbar'
 
 const navLinks = [
 	{ id: 1, name: 'About', path: '/#about' },
@@ -36,68 +37,24 @@ const Header = () => {
 			>
 				V.Myronyuk
 			</Link>
-			<nav>
-				<ul className='hidden sm:flex gap-10'>
-					{navLinks.map(link => (
-						<li key={link.id}>
-							<Link
-								href={link.path}
-								onClick={() => setPathname(link.path)}
-								className={
-									isActive(link.path)
-										? 'border-rose-700 border-b-[3px] text-white'
-										: 'text-gray-300'
-								}
-							>
-								{link.name}
-							</Link>
-						</li>
-					))}
-				</ul>
-				<button
-					className='block sm:hidden text-xl'
-					onClick={() => setIsNavBarOpen(!isNavbarOpen)}
-				>
-					<RxHamburgerMenu />
-				</button>
-			</nav>
+			<Navbar
+				navLinks={navLinks}
+				isActive={isActive}
+				setIsNavBarOpen={setIsNavBarOpen}
+				isNavbarOpen={isNavbarOpen}
+				setPathname={setPathname}
+			/>
 
 			<div
 				className={`${styles.navbar} ${isNavbarOpen ? styles.navbarOpen : ''}`}
 			>
-				<div className='flex justify-end pt-3 pr-4 text-white'>
-					<button
-						className='border px-2 rounded-md'
-						onClick={() => setIsNavBarOpen(!isNavbarOpen)}
-					>
-						X
-					</button>
-				</div>
-				<div
-					className='text-white flex flex-col text-left items-center bg-black h-screen overflow-y-hidden opacity-90'
-					onClick={() => setIsNavBarOpen(!isNavbarOpen)}
-				>
-					<ul className='flex items-center mt-32 h-full flex-col gap-6 text-2xl'>
-						{navLinks.map(link => (
-							<li key={link.id}>
-								<Link
-									href={link.path}
-									onClick={(e: React.MouseEvent) => {
-										e.stopPropagation()
-										setPathname(link.path)
-									}}
-									className={
-										isActive(link.path)
-											? 'border-rose-700 border-b-[3px] text-white'
-											: 'text-gray-300'
-									}
-								>
-									{link.name}
-								</Link>
-							</li>
-						))}
-					</ul>
-				</div>
+				<ResponsiveNavbar
+					navLinks={navLinks}
+					isActive={isActive}
+					setPathname={setPathname}
+					setIsNavBarOpen={setIsNavBarOpen}
+					isNavbarOpen={isNavbarOpen}
+				/>
 			</div>
 		</header>
 	)
