@@ -36,6 +36,7 @@ const About = () => {
 						src='/about.jpg'
 						alt='about'
 						className='rounded-full'
+						sizes='(max-width: 640px) 100vw, 400px'
 						width={400}
 						height={400}
 						priority
