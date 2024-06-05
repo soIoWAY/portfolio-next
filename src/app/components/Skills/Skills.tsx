@@ -46,7 +46,7 @@ const Skills = () => {
 			className='bg-[#0d0d0d] flex flex-col items-center justify-center py-12'
 			id='skills'
 		>
-			<h1 className='uppercase font-bold text-2xl border-b-4 border-rose-700'>
+			<h1 className='uppercase font-bold text-2xl border-b-4 border-customRose-900'>
 				Skills
 			</h1>
 			<p className='text-base mt-6 w-9/12 sm:w-2/3 text-center'>

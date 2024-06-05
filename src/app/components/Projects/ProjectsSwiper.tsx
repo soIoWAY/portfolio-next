@@ -37,6 +37,7 @@ export function ProjectSwiper() {
 								width={500}
 								height={500}
 								alt={slide.description}
+								loading='lazy'
 							/>
 						</div>
 						<p className='text-center w-[90%] sm:w-[80%] text-sm mt-2'>

@@ -32,7 +32,7 @@ const Navbar = ({
 							onClick={() => setPathname(link.path)}
 							className={
 								isActive(link.path)
-									? 'border-rose-700 border-b-[3px] text-white'
+									? 'border-customRose-900 border-b-[3px] text-white'
 									: 'text-gray-300'
 							}
 						>
@@ -42,6 +42,7 @@ const Navbar = ({
 				))}
 			</ul>
 			<button
+				aria-label='hamburger menu'
 				className='block sm:hidden text-xl'
 				onClick={() => setIsNavBarOpen(!isNavbarOpen)}
 			>

@@ -9,6 +9,7 @@ const DotButtons = ({ selectedIndex, scrollTo }: IDotButtons) => {
 			{[0, 1].map(index => (
 				<button
 					key={index}
+					aria-label='dot button'
 					className={`w-3 h-3 rounded-full ${
 						selectedIndex === index ? 'bg-rose-600' : 'bg-gray-700'
 					}`}

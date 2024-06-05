@@ -10,9 +10,9 @@ const Footer = () => {
 					<div className='flex flex-col gap-6 md:gap-12 w-1/2'>
 						<div className='uppercase font-serif flex flex-col gap-1'>
 							<h1 className='text-2xl'>
-								<span className='text-rose-700'>Vitaliy</span> Myronyuk
+								<span className='text-customRose-900'>Vitaliy</span> Myronyuk
 							</h1>
-							<p className='text-rose-700 text-sm'>Front-End Developer</p>
+							<p className='text-customRose-900 text-sm'>Front-End Developer</p>
 						</div>
 						<div className='flex flex-col gap-1'>
 							<h4 className='font-semibold'>Follow me</h4>
@@ -30,7 +30,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<div className='text-center text-rose-700 border-t-2 border-t-rose-700 py-2'>
+			<div className='text-center text-customRose-900 border-t-2 border-t-customRose-900 py-2'>
 				<p>All rights reserved by the author</p>
 			</div>
 		</footer>

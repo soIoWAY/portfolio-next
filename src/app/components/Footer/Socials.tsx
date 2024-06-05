@@ -18,10 +18,10 @@ const socials = [
 
 const Socials = () => {
 	return (
-		<ul className='flex gap-5 text-2xl text-rose-700'>
+		<ul className='flex gap-5 text-2xl text-customRose-900'>
 			{socials.map((social, index) => (
 				<Link href={social.href} key={index} target='_blank'>
-					<li className='border p-2 rounded-full border-rose-700 hover:bg-rose-700 hover:text-[#0c0c0c] transition-all'>
+					<li className='border p-2 rounded-full border-customRose-900 hover:bg-customRose-900 hover:text-[#0c0c0c] transition-all'>
 						{social.icon}
 					</li>
 				</Link>

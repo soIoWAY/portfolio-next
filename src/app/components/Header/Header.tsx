@@ -32,7 +32,7 @@ const Header = () => {
 		<header className='flex justify-between bg-[#0A0A0A] fixed px-10 sm:px-20 md:px-40 py-4 shadow-[#060606] shadow-md drop-shadow-lg w-full items-center z-[9999]'>
 			<Link
 				href='/'
-				className='text-rose-700 font-mono italic font-semibold text-xl'
+				className='text-customRose-900 font-mono italic font-semibold text-xl'
 				onClick={() => setPathname('/#about')}
 			>
 				V.Myronyuk

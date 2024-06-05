@@ -22,7 +22,7 @@ const Proficiency = () => {
 			className='bg-[#0d0d0d] px-10 sm:px-20 md:px-40 mx-auto flex flex-col items-center py-12'
 			id='proficiency'
 		>
-			<h1 className='uppercase font-bold text-2xl border-b-4 border-rose-700'>
+			<h1 className='uppercase font-bold text-2xl border-b-4 border-customRose-900'>
 				Proficiency
 			</h1>
 			<div className='w-full flex justify-center gap-20 mt-10'>

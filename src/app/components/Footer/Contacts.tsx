@@ -9,7 +9,7 @@ const Contacts = () => {
 				<li>
 					<Link href='/'>
 						<div className='flex items-center gap-3'>
-							<FaPhoneAlt className='fill-rose-700 text-xl' />
+							<FaPhoneAlt className='fill-customRose-900 text-xl' />
 							<p>0688867089</p>
 						</div>
 					</Link>
@@ -17,7 +17,7 @@ const Contacts = () => {
 				<li>
 					<Link href=''>
 						<div className='flex items-center gap-3'>
-							<IoMail className='fill-rose-700 text-xl' />
+							<IoMail className='fill-customRose-900 text-xl' />
 							<p>vitalikmur38@gmail.com</p>
 						</div>
 					</Link>

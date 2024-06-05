@@ -10,10 +10,12 @@ const About = () => {
 		>
 			<div className='flex flex-col-reverse md:flex-row justify-between items-center'>
 				<div className='w-full mt-6 md:mt-0 gap-2 md:w-1/2 flex flex-col'>
-					<h1 className='text-rose-700 text-4xl sm:text-3xl font-bold'>HI!</h1>
+					<h1 className='text-customRose-900 text-4xl sm:text-3xl font-bold'>
+						HI!
+					</h1>
 					<h2 className='font-bold text-3xl sm:text-2xl'>
 						My name is{' '}
-						<span className='text-rose-700 tracking-wide'>
+						<span className='text-customRose-900 tracking-wide'>
 							Vitaliy Myronyuk
 						</span>
 					</h2>
@@ -24,7 +26,7 @@ const About = () => {
 					</p>
 					<Link
 						href='/#contacts'
-						className='mt-12 bg-gradient-to-r from-rose-500 to-rose-800 max-w-fit px-4 sm:px-3 py-2 rounded-sm'
+						className='mt-12 bg-gradient-to-r from-rose-500 to-customRose-900 max-w-fit px-4 sm:px-3 py-2 rounded-sm'
 					>
 						Contact Me
 					</Link>
@@ -36,11 +38,12 @@ const About = () => {
 						className='rounded-full'
 						width={400}
 						height={400}
+						priority
 					/>
 				</div>
 			</div>
 			<div className='text-5xl mt-12'>
-				<MdOutlineKeyboardDoubleArrowDown className='fill-rose-700' />
+				<MdOutlineKeyboardDoubleArrowDown className='fill-customRose-900' />
 			</div>
 		</div>
 	)

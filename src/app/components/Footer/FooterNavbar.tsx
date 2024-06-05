@@ -14,7 +14,7 @@ const FooterNavbar = () => {
 		<div>
 			<ul className='flex flex-col gap-3'>
 				{footerNav.map((fnav, index) => (
-					<li key={index} className='hover:text-rose-700 transition-all'>
+					<li key={index} className='hover:text-customRose-900 transition-all'>
 						<Link href={fnav.href}>{fnav.text}</Link>
 					</li>
 				))}
