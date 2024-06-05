@@ -4,7 +4,7 @@ import Socials from './Socials'
 
 const Footer = () => {
 	return (
-		<footer className='bg-[#0d0d0d]' id='contacts'>
+		<footer className='bg-gray-200 dark:bg-[#0d0d0d]' id='contacts'>
 			<div className='flex flex-col px-10 sm:px-20 md:px-40 mx-auto'>
 				<div className='flex flex-col md:flex-row justify-between py-12'>
 					<div className='flex flex-col gap-6 md:gap-12 w-1/2'>

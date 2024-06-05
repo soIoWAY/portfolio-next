@@ -26,13 +26,19 @@ const skills: Skill[] = [
 		name: 'TypeScript',
 	},
 	{ icon: <FaReact className='text-5xl fill-sky-400' />, name: 'React.js' },
-	{ icon: <TbBrandNextjs className='text-5xl fill-black' />, name: 'Next.js' },
+	{
+		icon: <TbBrandNextjs className='text-5xl fill-white dark:fill-black' />,
+		name: 'Next.js',
+	},
 	{
 		icon: <BiLogoPostgresql className='text-5xl fill-sky-700' />,
 		name: 'PostgreSQL',
 	},
 	{ icon: <SiPrisma className='text-5xl fill-blue-950' />, name: 'Prisma' },
-	{ icon: <FaGithub className='text-5xl fill-white' />, name: 'Github' },
+	{
+		icon: <FaGithub className='text-5xl fill-black dark:fill-white' />,
+		name: 'Github',
+	},
 	{ icon: <FaNodeJs className='text-5xl fill-green-500' />, name: 'Node.js' },
 	{
 		icon: <IoLogoFirebase className='text-5xl fill-yellow-400' />,
@@ -43,7 +49,7 @@ const skills: Skill[] = [
 const Skills = () => {
 	return (
 		<div
-			className='bg-[#0d0d0d] flex flex-col items-center justify-center py-12'
+			className='bg-gray-200 dark:bg-[#0d0d0d] flex flex-col items-center justify-center py-12'
 			id='skills'
 		>
 			<h1 className='uppercase font-bold text-2xl border-b-4 border-customRose-900'>

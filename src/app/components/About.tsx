@@ -6,7 +6,7 @@ const About = () => {
 	return (
 		<div
 			id='about'
-			className='flex flex-col items-center w-full bg-[#0A0A0A] pt-20 pb-10 px-10 sm:px-20 md:px-40'
+			className='flex flex-col items-center w-full bg-white dark:bg-[#0A0A0A] pt-20 pb-10 px-10 sm:px-20 md:px-40'
 		>
 			<div className='flex flex-col-reverse md:flex-row justify-between items-center'>
 				<div className='w-full mt-6 md:mt-0 gap-2 md:w-1/2 flex flex-col'>

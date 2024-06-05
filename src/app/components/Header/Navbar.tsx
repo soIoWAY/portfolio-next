@@ -32,8 +32,8 @@ const Navbar = ({
 							onClick={() => setPathname(link.path)}
 							className={
 								isActive(link.path)
-									? 'border-customRose-900 border-b-[3px] text-white'
-									: 'text-gray-300'
+									? 'border-customRose-900 border-b-[3px] text-black dark:text-white'
+									: 'text-gray-600 dark:text-gray-300'
 							}
 						>
 							{link.name}
