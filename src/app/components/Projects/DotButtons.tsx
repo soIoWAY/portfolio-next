@@ -6,7 +6,7 @@ interface IDotButtons {
 const DotButtons = ({ selectedIndex, scrollTo }: IDotButtons) => {
 	return (
 		<div className='flex justify-center space-x-4 mt-4'>
-			{[0, 1].map(index => (
+			{[0, 1, 2].map(index => (
 				<button
 					key={index}
 					aria-label='dot button'
