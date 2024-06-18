@@ -9,6 +9,11 @@ export const slides = [
 		text: 'The website presents my professional skills that help to successfully implement projects. In the "Education" section, you can familiarize yourself with my academic experience and qualifications. I described my projects in detail, showing examples of work and achievements. In the "Contacts" section you will find ways to contact me for further cooperation or to discuss opportunities.',
 		description: 'portfolio',
 	},
+	{
+		image: '/project3.png',
+		text: 'Browser-based soccer manager simulator game with the ability to rebuild the squad, increase the team rating, simulate tours and player statistics.',
+		description: 'football manager simulator',
+	},
 ]
 
 export const educations = [
