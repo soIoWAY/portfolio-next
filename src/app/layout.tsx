@@ -16,6 +16,11 @@ export const metadata: Metadata = {
 		description:
 			'Welcome to the portfolio of Vitaliy Myronyuk, a professional web developer specializing in creating stunning, responsive websites and applications.',
 	},
+	icons: {
+		icon: ['/favicon.ico?v=4'],
+		apple: ['/apple-touch-icon.png?v=4'],
+		shortcut: ['/apple-touch-icon.png'],
+	},
 }
 
 export default function RootLayout({
