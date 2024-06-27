@@ -33,6 +33,7 @@ export default function RootLayout({
 			<head>
 				<meta name='description' content={metadata.description!} />
 				<meta name='author' content='Vitaliy Muronyuk' />
+				<meta name='freelancehunt' content='4a8fc6beb3d301e' />
 			</head>
 			<body className={inter.className}>
 				{children}
