@@ -21,6 +21,7 @@ export default function ProjectsPage() {
 							height={800}
 							alt={projects.name}
 							key={index}
+							loading='lazy'
 						/>
 					))}
 				</div>
