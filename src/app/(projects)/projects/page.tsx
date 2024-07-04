@@ -17,8 +17,8 @@ export default function ProjectsPage() {
 					{projects.otherImages.map((image, index) => (
 						<Image
 							src={image}
-							width={800}
-							height={800}
+							width={700}
+							height={700}
 							alt={projects.name}
 							key={index}
 							loading='lazy'
