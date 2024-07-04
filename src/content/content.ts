@@ -43,11 +43,11 @@ export const projects = [
 			'Web application where you can play mini games for virtual currency, level up, and compete to be one of the top players.',
 		imgSrc: '/project_1.png',
 		otherImages: [
-			'/kings/7kings1.png',
-			'/kings/7kings2.png',
-			'/kings/7kings3.png',
-			'/kings/7kings4.png',
-			'/kings/7kings5.png',
+			'/kings/kings1.png',
+			'/kings/kings2.png',
+			'/kings/kings3.png',
+			'/kings/kings4.png',
+			'/kings/kings5.png',
 		],
 	},
 	{
