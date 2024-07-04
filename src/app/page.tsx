@@ -1,14 +1,14 @@
 import dynamic from 'next/dynamic'
-import About from './components/About'
-import Education from './components/Education'
-import Footer from './components/Footer/Footer'
-import Header from './components/Header/Header'
-import Proficiency from './components/Proficiency/Proficiency'
-import Skills from './components/Skills/Skills'
+import About from '../components/About'
+import Education from '../components/Education'
+import Footer from '../components/Footer/Footer'
+import Header from '../components/Header/Header'
+import Proficiency from '../components/Proficiency/Proficiency'
+import Skills from '../components/Skills/Skills'
 
 export default function Home() {
 	const DynamicProjects = dynamic<{}>(
-		() => import('./components/Projects/Projects'),
+		() => import('../components/Projects/Projects'),
 		{
 			ssr: false,
 		}

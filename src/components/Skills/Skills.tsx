@@ -56,9 +56,8 @@ const Skills = () => {
 				Skills
 			</h1>
 			<p className='text-base mt-6 w-9/12 sm:w-2/3 text-center'>
-				I am from Ukraine and currently living in Lviv. I am doing Bachelor`s in
-				Computer Science and I will graduate in the year 2025. I am Front-End
-				developer and currently working as a freelancer.
+				I have a strong foundation in HTML5, CSS3, TailwindCSS, JavaScript,
+				TypeScript, React, Next.js, Git, and Node.js.
 			</p>
 			<div className='mt-6 flex flex-wrap justify-center w-full sm:w-2/3 gap-3'>
 				{skills.map((skill, index) => (

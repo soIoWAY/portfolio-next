@@ -20,9 +20,14 @@ const About = () => {
 						</span>
 					</h2>
 					<p className='text-base'>
-						I am from Ukraine and currently living in Lviv. I am doing
-						Bachelor`s in Computer Science and I will graduate in the year 2025.
-						I am Front-End developer and currently working as a freelancer.
+						I am a motivated and experienced Web developer with a degree from
+						Lviv State University of Life Safety. I have a strong foundation in
+						HTML5, CSS3, TailwindCSS, JavaScript, TypeScript, React, Next.js,
+						Git, and Node.js. With a keen eye for detail and a passion for
+						creating innovative and user-friendly websites, I have successfully
+						implemented various projects throughout my career. My expertise in
+						front-end development and proficiency in utilizing various tools and
+						technologies make me a valuable asset to any team
 					</p>
 					<Link
 						href='/#contacts'

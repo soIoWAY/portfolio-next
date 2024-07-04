@@ -34,3 +34,52 @@ export const educations = [
 			'During my studies, I consolidated my knowledge of JavaScript, learned the basic principles of OOP, got acquainted with libraries and frameworks. Consolidated all skills with practical tasks.',
 	},
 ]
+
+export const projects = [
+	{
+		id: 1,
+		name: '7Kings Casino',
+		description:
+			'Web application where you can play mini games for virtual currency, level up, and compete to be one of the top players.',
+		imgSrc: '/project_1.png',
+		otherImages: [
+			'/kings/7kings1.png',
+			'/kings/7kings2.png',
+			'/kings/7kings3.png',
+			'/kings/7kings4.png',
+			'/kings/7kings5.png',
+		],
+	},
+	{
+		id: 2,
+		name: 'Portfolio',
+		description:
+			'My own portfolio site with information about me, my projects, studies, and contacts.',
+		imgSrc: '/project_2.png',
+		otherImages: [
+			'/portfolio/portfolio1.png',
+			'/portfolio/portfolio2.png',
+			'/portfolio/portfolio3.png',
+			'/portfolio/portfolio4.png',
+		],
+	},
+	{
+		id: 3,
+		name: 'Football Manager Simulator',
+		description: 'Web application where you feel like a football club manager',
+		imgSrc: '/project_3.png',
+		otherImages: ['/fms/fms1.png', '/fms/fms2.png', '/fms/fms3.png'],
+	},
+	{
+		id: 4,
+		name: 'Funtes',
+		description: 'Platform with interesting tests from admins and users',
+		imgSrc: '/project_4.png',
+		otherImages: [
+			'/funtes/funtes1.png',
+			'/funtes/funtes2.png',
+			'/funtes/funtes3.png',
+			'/funtes/funtes4.png',
+		],
+	},
+]

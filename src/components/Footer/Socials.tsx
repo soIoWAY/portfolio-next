@@ -16,7 +16,7 @@ const socials = [
 	{ icon: <FaTelegramPlane />, href: 'https://t.me/xzvetal', al: 'telegram' },
 	{
 		icon: <FaLinkedinIn />,
-		href: 'https://www.linkedin.com/in/vitaliy-muronyuk-659b66245/',
+		href: 'https://www.linkedin.com/in/vitaliymyronyuk/',
 		al: 'linkedin',
 	},
 ]

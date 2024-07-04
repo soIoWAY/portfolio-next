@@ -6,11 +6,11 @@ interface IProficiencies {
 }
 
 const proficiencies: IProficiencies[] = [
-	{ name: 'HTML', width: 'w-[95%]' },
-	{ name: 'CSS', width: 'w-[90%]' },
+	{ name: 'HTML', width: 'w-[100%]' },
+	{ name: 'CSS', width: 'w-[100%]' },
 	{ name: 'Tailwind', width: 'w-[90%]' },
-	{ name: 'JavaScript', width: 'w-[85%]' },
-	{ name: 'TypeScript', width: 'w-[80%]' },
+	{ name: 'JavaScript', width: 'w-[92%]' },
+	{ name: 'TypeScript', width: 'w-[85%]' },
 	{ name: 'React.js', width: 'w-[82%]' },
 	{ name: 'Next.js', width: 'w-[73%]' },
 	{ name: 'PostgreSQL', width: 'w-[85%]' },
